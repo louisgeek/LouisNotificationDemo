@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showNotification();
+
+                InfoHolderSingleton.getInstance().addListObj("来自main aty 的数据");
             }
         });
 
